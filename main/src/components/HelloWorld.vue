@@ -25,7 +25,7 @@ export default {
 .entry-container {
   ul {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     transition: all 10s ease;
     & > li {

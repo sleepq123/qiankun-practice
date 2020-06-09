@@ -1,0 +1,23 @@
+{
+  "name": "qiankun-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app:install": "npm-run-all --serial install:*",
+    "app:run": "npm-run-all --parallel run:*",
+    "install:main": "cd ./main && yarn install",
+    "install:react": "cd ./react16 && yarn install",
+    "install:vue": "cd ./vue && yarn install",
+    "run:main": "cd ./main && npm run dev",
+    "run:react": "cd ./react16 && npm run start",
+    "run:vue": "cd ./vue && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

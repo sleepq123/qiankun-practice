@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "vue/no-parsing-error": [2, { "x-invalid-end-tag": false }],
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+  }
+}

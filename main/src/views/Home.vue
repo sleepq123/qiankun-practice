@@ -9,18 +9,24 @@
       <p class="btn-hover" @click="layout">登出</p>
     </nav>
     <!-- 子应用容器 -->
-    <main id="subapp-viewport">子应用</main>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <span v-if="loading">loading...</span>
+    <main ref="main" id="subapp-viewport"><HelloWorld v-if="!loading" /></main>
   </div>
 </template>
 
 <script>
+import Vue from 'vue';
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "Home",
   components: {
     HelloWorld
+  },
+  computed:{
+    loading(){
+      return this.$store.state.loading;
+    }
   },
   methods: {
     layout() {
@@ -30,6 +36,8 @@ export default {
     push(subapp) {
       history.pushState(null, subapp, subapp);
     }
+  },
+  mounted(){
   }
 };
 </script>

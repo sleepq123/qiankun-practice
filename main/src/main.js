@@ -5,7 +5,11 @@ import {
   start,
   initGlobalState
 } from "qiankun";
+import store from './store';
 
+const loader = loading => {
+  store.commit("changeLoading", loading);
+}
 /**
  * 注册子应用
  */
@@ -15,12 +19,14 @@ registerMicroApps(
       name: "react",
       entry: "//localhost:8081",
       container: "#subapp-viewport",
+      loader,
       activeRule: "/react"
     },
     {
       name: "vue",
       entry: "//localhost:8082",
       container: "#subapp-viewport",
+      loader,
       activeRule: "/vue"
     }
   ],

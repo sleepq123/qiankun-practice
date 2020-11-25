@@ -782,7 +782,14 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
+"@babel/runtime@^7.10.5":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
+  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
   integrity sha512-6sF3uQw2ivImfVIl62RZ7MXhO2tap69WeWK57vAaimT6AZbE4FbqjdEJIN1UqoD6wI6B+1n9UiagafH1sxjOtg==
@@ -4046,9 +4053,9 @@ hex-color-regex@^1.1.0:
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
 highlight.js@^9.6.0:
-  version "9.18.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
-  integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -4291,10 +4298,10 @@ import-from@^2.1.0:
   dependencies:
     resolve-from "^3.0.0"
 
-import-html-entry@^1.7.0:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/import-html-entry/-/import-html-entry-1.7.3.tgz#9c61234588b81abffc0896e0f8f4adabd8eabd6a"
-  integrity sha512-jWXK2gY61bC4XxUvVh8z+MGhQpBKBWmYyC+22scchwNky0HitTq+yDDTgVKSSoL/Ei0dh2lHGECdPwkHq0rKGQ==
+import-html-entry@^1.9.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/import-html-entry/-/import-html-entry-1.10.0.tgz#23092ef650fe5041a7802d8562f5681f0699d657"
+  integrity sha512-JNINPazMpBjjO/eYd/P2G7CC11nssuV2WuNKDd/9wGLoqnU3QJjpITlfNIbDvuB31NB88kVa7VHmFkM1JZAOcg==
   dependencies:
     "@babel/runtime" "^7.7.2"
 
@@ -6486,15 +6493,15 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qiankun@^2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/qiankun/-/qiankun-2.0.12.tgz#26fb5e9b8ab7df3f37bee85fc686ad81c129ddef"
-  integrity sha512-blG60viJND5IeahKPvq998CQt2qfeyaLWoDba/dNn++GciyeQ6hSBe2QrzgXcubecVEyN24THlPgGER7yTz0zA==
+qiankun@^2.0.13:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/qiankun/-/qiankun-2.3.2.tgz#59b01081ce07f1d6de38d131bc1ec468dd691b75"
+  integrity sha512-Hz+d6JIzap/ujpQzL6OQmWAgV3dFNKKKTIIdr6GYFgARORMkNp7eSYI3NEeay4wUmELJTSXlxeDsZmf/v4wCBA==
   dependencies:
-    "@babel/runtime" "^7.5.5"
-    import-html-entry "^1.7.0"
+    "@babel/runtime" "^7.10.5"
+    import-html-entry "^1.9.0"
     lodash "^4.17.11"
-    single-spa "^5.3.1"
+    single-spa "5.8.1"
     tslib "^1.10.0"
 
 qs@6.7.0:
@@ -7077,10 +7084,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-single-spa@^5.3.1:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.5.3.tgz#17c092120c7faf39bd740f95900f132150e17eb1"
-  integrity sha512-P+czr9i0814D4fH84IPcLq3hVxBD5dFaPF71V8bBsa9SrRv581FcS7CW/frpr9K53KMLKXsWb4z0O8zC+dtLfw==
+single-spa@5.8.1:
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.8.1.tgz#86c2575e297e31d8f06945944ec97e31851a59ae"
+  integrity sha512-RlyLZ1IDIPdzI6mQPzCQnlgTt9jmbAXBZODmifoDut840wksPDSPhcSS8jXMpuUlqOidQiX2YuLVQSR9DEgsXw==
 
 slash@^1.0.0:
   version "1.0.0"
@@ -8068,6 +8075,11 @@ vue@^2.6.11:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+
+vuex@^3.4.0:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.5.1.tgz#f1b8dcea649bc25254cf4f4358081dbf5da18b3d"
+  integrity sha512-w7oJzmHQs0FM9LXodfskhw9wgKBiaB+totOdb8sNzbTB2KDCEEwEs29NzBZFh/lmEK1t5tDmM1vtsO7ubG1DFw==
 
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"

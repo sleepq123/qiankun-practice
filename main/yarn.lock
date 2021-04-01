@@ -782,7 +782,14 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
+"@babel/runtime@^7.10.5":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
+  integrity sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
   integrity sha512-6sF3uQw2ivImfVIl62RZ7MXhO2tap69WeWK57vAaimT6AZbE4FbqjdEJIN1UqoD6wI6B+1n9UiagafH1sxjOtg==
@@ -4291,10 +4298,10 @@ import-from@^2.1.0:
   dependencies:
     resolve-from "^3.0.0"
 
-import-html-entry@^1.7.0:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/import-html-entry/-/import-html-entry-1.7.3.tgz#9c61234588b81abffc0896e0f8f4adabd8eabd6a"
-  integrity sha512-jWXK2gY61bC4XxUvVh8z+MGhQpBKBWmYyC+22scchwNky0HitTq+yDDTgVKSSoL/Ei0dh2lHGECdPwkHq0rKGQ==
+import-html-entry@^1.9.0:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/import-html-entry/-/import-html-entry-1.11.1.tgz#3d8c5977926bdd122ab8e658965c102068b4af8d"
+  integrity sha512-O7mCUTwKdYU49/LH6nq1adWPnUlZQpKeGWIEcDq07KTcqP/v0jBLEIVc0oE0Mtlw3CEe0eeKGMyhl6LwfXCV7A==
   dependencies:
     "@babel/runtime" "^7.7.2"
 
@@ -6486,15 +6493,15 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qiankun@^2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/qiankun/-/qiankun-2.0.12.tgz#26fb5e9b8ab7df3f37bee85fc686ad81c129ddef"
-  integrity sha512-blG60viJND5IeahKPvq998CQt2qfeyaLWoDba/dNn++GciyeQ6hSBe2QrzgXcubecVEyN24THlPgGER7yTz0zA==
+qiankun@^2.0.13:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/qiankun/-/qiankun-2.4.0.tgz#e0c847fcee1e79c167899bfcb7441a23590c5430"
+  integrity sha512-O9xfVQ1yP1tp7dL1EvK3BicD3z2NURAyF0BjxdJ9TYny40VFfWvw7H9j5ONZiihiE7owcwCpXex+FsqEU7fuew==
   dependencies:
-    "@babel/runtime" "^7.5.5"
-    import-html-entry "^1.7.0"
+    "@babel/runtime" "^7.10.5"
+    import-html-entry "^1.9.0"
     lodash "^4.17.11"
-    single-spa "^5.3.1"
+    single-spa "5.8.1"
     tslib "^1.10.0"
 
 qs@6.7.0:
@@ -7077,10 +7084,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-single-spa@^5.3.1:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.5.3.tgz#17c092120c7faf39bd740f95900f132150e17eb1"
-  integrity sha512-P+czr9i0814D4fH84IPcLq3hVxBD5dFaPF71V8bBsa9SrRv581FcS7CW/frpr9K53KMLKXsWb4z0O8zC+dtLfw==
+single-spa@5.8.1:
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.8.1.tgz#86c2575e297e31d8f06945944ec97e31851a59ae"
+  integrity sha512-RlyLZ1IDIPdzI6mQPzCQnlgTt9jmbAXBZODmifoDut840wksPDSPhcSS8jXMpuUlqOidQiX2YuLVQSR9DEgsXw==
 
 slash@^1.0.0:
   version "1.0.0"
@@ -8069,6 +8076,11 @@ vue@^2.6.11:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
 
+vuex@^3.4.0:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
+  integrity sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==
+
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/watchpack-chokidar2/-/watchpack-chokidar2-2.0.0.tgz#9948a1866cbbd6cb824dea13a7ed691f6c8ddff0"
@@ -8325,9 +8337,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^2.1.2:
   version "2.1.2"
